@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>Home Page</title>
 
-    <meta name="author" content="Nickolai Petersen">
+    <meta name="author" content="Nickolai Petersen & Michelle Weber">
     <meta name="description" content="Example description">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -15,14 +15,14 @@
 </head>
 
 <body>
-    <header src="pictures/cartoon-galaxy-with-stars-background_52683-65530.jpg">
+    <header>
         <h1>UN-MI-VERSE</h1>
         <h3>Welcome Every Galaxy Travler</h3>
     </header>
 
     <!--------------------NavBar---------------------------->
 
-    <div class="topnav" id="myTopnav">
+    <div class="topnav">
         <a href="#home" class="active">NewsFeed</a>
         <a href="#news">Profile</a>
         <a href="#contact">Contact</a>
@@ -40,7 +40,7 @@
     <!--------------------Asides---------------------------->
 
     <aside id="Left">
-        <form action="document.class:" content".write 'signup.php" method="post">
+        <form action="signup.php" method="post">
             <div class="imgcontainer">
                 <img src="pictures/ProfilePics/rocket-removebg-preview.png" class="avatar">
             </div>
@@ -62,6 +62,7 @@
                 <span class="psw">Forgot <a href="#">password?</a></span>
             </div>
         </form>
+
     </aside>
 
     <aside id="Right">
@@ -122,9 +123,7 @@
     -
     <div class="wrapper" id="content">
         <div class="contentBlock">
-            <div class="imgBack" color="Black">
-                <img src="pictures/ProfilePics/astronauta-lancando-no-espaco-e-acenando-a-ilustracao-dos-desenhos-animados-de-mao-conceito-de-tecnologia-da-ciencia-isolado-estilo-flat-cartoon_138676-3446.jpg">
-            </div>
+            <img src="pictures/ProfilePics/astronauta-lancando-no-espaco-e-acenando-a-ilustracao-dos-desenhos-animados-de-mao-conceito-de-tecnologia-da-ciencia-isolado-estilo-flat-cartoon_138676-3446.jpg">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque maximus dictum euismod. Aliquam convallis lacus et tincidunt ornare. Ut vitae lacinia felis. Fusce vehicula rutrum cursus. Quisque odio augue, ultricies nec interdum quis, bibendum eget nisl. Morbi quis orci sem. Etiam varius malesuada massa.</p>
 
             <p class="date"><strong>Date:</strong> 10/09-22</p>

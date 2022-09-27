@@ -6,3 +6,8 @@
                 x.className = "topnav";
             }
         }
+
+        function mydosdus() {
+
+
+        }
