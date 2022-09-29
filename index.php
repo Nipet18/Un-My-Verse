@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>Home Page</title>
 
-    <meta name="author" content="Nickolai Petersen">
+    <meta name="author" content="Nickolai Petersen & Michelle Weber">
     <meta name="description" content="Example description">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -16,7 +16,7 @@
 
 <body>
     <header class="primary-header" src="pictures/cartoon-galaxy-with-stars-background_52683-65530.jpg">
-        <h1>UN-MI-VERSE</h1>
+        <h1>UN-MY-VERSE</h1>
         <h3>Welcome Every Galaxy Travler</h3>
 
 
