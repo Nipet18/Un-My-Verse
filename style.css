@@ -20,6 +20,7 @@ header {
 }
 
 /*------  Navigationbar  --------*/
+
 .primary-header {
     margin-bottom: 40px;
     align-items: center;
@@ -34,6 +35,8 @@ header {
     background: hsl(0 0% 100% / 0.1);
     backdrop-filter: blur(2.5rem);
     border-radius: 5px;
+    overflow: hidden;
+
 }
 
 #primary-navigation a {
@@ -84,6 +87,12 @@ aside {
 
 #Left {
     float: left;
+}
+
+
+/*TEST************************************/
+.profilePictures {
+    display: none
 }
 
 #Right {
@@ -182,8 +191,6 @@ span.psw {
     text-align: left;
     border-radius: 20px;
 }
-
-/*TEST*/
 
 .contentBlock input {
     width: 100%;

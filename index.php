@@ -44,29 +44,7 @@
                 </ul>
             </nav>
         </div>
-
-
-
     </header>
-
-    <!--------------------  NavBar  ---------------------------->
-
-    <!--
-    <div class="topnav" id="myTopnav">
-        <a href="#home" class="active">NewsFeed</a>
-        <a href="#news">Profile</a>
-        <a href="#contact">Contact</a>
-        <a href="#contact">FAQ</a>
-        <div class="search-container">
-            <form action="/action_page.php">
-                <input type="text" placeholder="Search.." name="search">
-                <button type="submit"><i class="fa fa-search"></i></button>
-            </form>
-        </div>
-    </div>
--->
-
-    <!--------------------  SideBars  ---------------------------->
 
     <aside id="Left">
         <form action="document.class:" content="signup.php" method="post">
@@ -91,6 +69,21 @@
                 <span class="psw">Forgot <a href="#">password?</a></span>
             </div>
         </form>
+
+
+        <div>
+            <div class="profilePictures">
+                <img src="pictures/ProfilePics/images.png">
+            </div>
+            <div class="profilePictures">
+                <img src="pictures/ProfilePics/cute-astronaut-dance-cartoon-vector-icon-illustration-technology-science-icon-concept-isolated-premium-v.jpg">
+            </div>
+            <div class="profilePictures">
+                <img src="pictures/ProfilePics/cute-astronaut-meditation-moon-illustration_138676-3351.jpg">
+            </div>
+
+        </div>
+
     </aside>
 
     <aside id="Right">
@@ -145,7 +138,7 @@
 
     <div class="wrapper" id="content">
         <div class="contentBlock">
-            <div class="imgBack" color="Black">
+            <div color="Black">
                 <img src="pictures/ProfilePics/astronauta-lancando-no-espaco-e-acenando-a-ilustracao-dos-desenhos-animados-de-mao-conceito-de-tecnologia-da-ciencia-isolado-estilo-flat-cartoon_138676-3446.jpg">
             </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque maximus dictum euismod. Aliquam convallis lacus et tincidunt ornare. Ut vitae lacinia felis. Fusce vehicula rutrum cursus. Quisque odio augue, ultricies nec interdum quis, bibendum eget nisl. Morbi quis orci sem. Etiam varius malesuada massa.</p>
