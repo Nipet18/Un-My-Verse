@@ -64,7 +64,7 @@
                     <input type="checkbox" checked="checked" name="remember"> Remember me
                 </label>
             </div>
-
+            <br>
             <div class="container">
                 <span class="psw">Forgot <a href="#">password?</a></span>
             </div>
@@ -72,14 +72,21 @@
 
 
         <div>
-            <div class="profilePictures">
+            <h3 class="asideHeader">Online</h3>
+            <div>
                 <img src="pictures/ProfilePics/images.png">
             </div>
-            <div class="profilePictures">
+            <div>
+                <img src="pictures/ProfilePics/alien.png">
+            </div>
+            <div>
+                <img src="pictures/ProfilePics/cute-astronaut-meditation-moon-illustration_138676-3351.jpg">
+            </div>
+            <div>
                 <img src="pictures/ProfilePics/cute-astronaut-dance-cartoon-vector-icon-illustration-technology-science-icon-concept-isolated-premium-v.jpg">
             </div>
-            <div class="profilePictures">
-                <img src="pictures/ProfilePics/cute-astronaut-meditation-moon-illustration_138676-3351.jpg">
+            <div>
+                <img src="pictures/ProfilePics/cute-astronaut-playing-skateboard-moon-cartoon-vector-icon-illustration-science-sport-isolated_138676-4546.jpg">
             </div>
 
         </div>
@@ -96,7 +103,7 @@
                 Signup Here</button>
         </section>
         <hr>
-        <h1>Planetarian Scrapple</h1>
+        <h3 class="asideHeader">Planetarian Scrapple</h3>
         <hr>
         <h3>LEADS</h3>
         <p>1. MagnusTheConquer</p>
