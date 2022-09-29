@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>Home Page</title>
 
-    <meta name="author" content="Nickolai Petersen & Michelle Weber">
+    <meta name="author" content="Nickolai Petersen">
     <meta name="description" content="Example description">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -15,16 +15,44 @@
 </head>
 
 <body>
-    <!--Michelle test af git->
-<!--->
-    <header>
+    <header class="primary-header" src="pictures/cartoon-galaxy-with-stars-background_52683-65530.jpg">
         <h1>UN-MI-VERSE</h1>
         <h3>Welcome Every Galaxy Travler</h3>
+
+
+        <div>
+            <nav>
+                <ul id="primary-navigation" class="primary-navigation flex">
+                    <li class="active">
+                        <a href="index.html">
+                            <span aria-hidden="true">00</span>News
+                        </a>
+                    </li>
+                    <li>
+                        <a href="distination.html">
+                            <span aria-hidden="true">01</span>Profile
+                        </a>
+                    </li>
+                    <li><a href="crew.html">
+                            <span aria-hidden="true">02</span>Seek
+                        </a>
+                    </li>
+                    <li><a href="technology.html">
+                            <span aria-hidden="true">03</span>FAQ
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+
+
     </header>
 
-    <!--------------------NavBar---------------------------->
+    <!--------------------  NavBar  ---------------------------->
 
-    <div class="topnav">
+    <!--
+    <div class="topnav" id="myTopnav">
         <a href="#home" class="active">NewsFeed</a>
         <a href="#news">Profile</a>
         <a href="#contact">Contact</a>
@@ -36,18 +64,17 @@
             </form>
         </div>
     </div>
+-->
 
-
-
-    <!--------------------Asides---------------------------->
+    <!--------------------  SideBars  ---------------------------->
 
     <aside id="Left">
-        <form action="signup.php" method="post">
+        <form action="document.class:" content="signup.php" method="post">
             <div class="imgcontainer">
                 <img src="pictures/ProfilePics/rocket-removebg-preview.png" class="avatar">
             </div>
 
-            <div class="container">
+            <div class="login">
                 <label for="uname"><b>Username</b></label>
                 <input type="text" placeholder="Enter Alien Alias" name="uname" required>
 
@@ -55,7 +82,7 @@
                 <input type="password" placeholder="Enter Password" name="psw" required>
 
                 <button type="submit">Login</button>
-                <label>
+                <label id="checkbox">
                     <input type="checkbox" checked="checked" name="remember"> Remember me
                 </label>
             </div>
@@ -64,7 +91,6 @@
                 <span class="psw">Forgot <a href="#">password?</a></span>
             </div>
         </form>
-
     </aside>
 
     <aside id="Right">
@@ -75,21 +101,15 @@
             <img src="pictures/ProfilePics/rocket-removebg-preview.png" class="miniAvatar">
             <button class="suBtn" id="canFile" onclick="loadHome()">
                 Signup Here</button>
-
         </section>
-
         <hr>
-
         <h1>Planetarian Scrapple</h1>
         <hr>
         <h3>LEADS</h3>
-
         <p>1. MagnusTheConquer</p>
         <p>2. DulleBoblesTheFirst</p>
         <p>3. ZazKasusSUS</p>
-
         <hr>
-
         <table>
             <tr>
                 <th>Power League</th>
@@ -121,11 +141,13 @@
         </table>
     </aside>
 
-    <!------------------MainContent---------------------------->
-    -
+    <!------------------  Main Content  ---------------------------->
+
     <div class="wrapper" id="content">
         <div class="contentBlock">
-            <img src="pictures/ProfilePics/astronauta-lancando-no-espaco-e-acenando-a-ilustracao-dos-desenhos-animados-de-mao-conceito-de-tecnologia-da-ciencia-isolado-estilo-flat-cartoon_138676-3446.jpg">
+            <div class="imgBack" color="Black">
+                <img src="pictures/ProfilePics/astronauta-lancando-no-espaco-e-acenando-a-ilustracao-dos-desenhos-animados-de-mao-conceito-de-tecnologia-da-ciencia-isolado-estilo-flat-cartoon_138676-3446.jpg">
+            </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque maximus dictum euismod. Aliquam convallis lacus et tincidunt ornare. Ut vitae lacinia felis. Fusce vehicula rutrum cursus. Quisque odio augue, ultricies nec interdum quis, bibendum eget nisl. Morbi quis orci sem. Etiam varius malesuada massa.</p>
 
             <p class="date"><strong>Date:</strong> 10/09-22</p>
@@ -195,7 +217,7 @@
         </div>
     </div>
 
-    <!---------------------Footer---------------------------->
+    <!---------------------  Footer  ---------------------------->
 
     <footer>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque maximus dictum euismod. Aliquam convallis lacus et tincidunt ornare. Ut vitae lacinia felis. Fusce vehicula rutrum cursus. Quisque odio augue, ultricies nec interdum quis, bibendum eget nisl. Morbi quis orci sem. Etiam varius malesuada massa.</p>
