@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Home Page</title>
+    <title>UN-MY-VERSE</title>
 
     <meta name="author" content="Nickolai Petersen & Michelle Weber">
     <meta name="description" content="Example description">
@@ -19,12 +19,11 @@
         <h1>UN-MY-VERSE</h1>
         <h3>Welcome Every Galaxy Travler</h3>
 
-
         <div>
             <nav>
                 <ul id="primary-navigation" class="primary-navigation flex">
                     <li class="active">
-                        <a href="index.html">
+                        <a href="index.php">
                             <span aria-hidden="true">00</span>News
                         </a>
                     </li>
@@ -34,7 +33,7 @@
                         </a>
                     </li>
                     <li><a href="crew.html">
-                            <span aria-hidden="true">02</span>Seek
+                            <span aria-hidden="true">02</span>Sign Up
                         </a>
                     </li>
                     <li><a href="technology.html">
@@ -70,7 +69,6 @@
             </div>
         </form>
 
-
         <div>
             <h3 class="asideHeader">Online</h3>
             <div>
@@ -88,7 +86,6 @@
             <div>
                 <img src="pictures/ProfilePics/cute-astronaut-playing-skateboard-moon-cartoon-vector-icon-illustration-science-sport-isolated_138676-4546.jpg">
             </div>
-
         </div>
 
     </aside>
