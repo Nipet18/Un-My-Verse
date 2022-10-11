@@ -229,6 +229,7 @@ img.avatar {
 /*------  Footer  --------*/
 
 footer {
+    float: inherit;
     background: lightblue;
     color: black;
     text-align: center;
