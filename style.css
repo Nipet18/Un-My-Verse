@@ -11,6 +11,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    overflow-x: hidden;
 }
 
 header {
@@ -77,17 +78,22 @@ header {
 /*------  Main Content  --------*/
 
 .wrapper {
-    min-height: 100vh;
+    min-height: 200vh;
     overflow: hidden;
     color: white;
     text-align: center;
     font-size: 30px;
+    margin: 30px;
+    padding: 30px;
+}
+
+.wrapper img {
+    width: 500px;
+    height: 500px;
 }
 
 .wrapper form {
     font-size: 30px;
-    margin: 30px;
-    padding: 30px;
 }
 
 fieldset {
@@ -101,6 +107,11 @@ fieldset {
 
 .wrapper label {
     float: left;
+}
+
+.wrapper textarea {
+    width: 100%;
+    font-size: 25px;
 }
 
 #dateofbirth {
@@ -170,14 +181,19 @@ fieldset {
     float: right;
 }
 
+.lookNice {
+    color: aqua;
+}
+
 /*------  Aside(SidePanels)  --------*/
 
 aside {
     width: 10%;
     padding: 20px;
-    min-height: 100vh;
+    min-height: 200vh;
     background: hsl(0 0% 100% / 0.5);
     font-size: 1.2vw;
+    overflow: hidden;
 }
 
 .asideHeader {
@@ -263,10 +279,8 @@ aside img.avatar {
 /*------  Footer  --------*/
 
 footer {
-
     bottom: 0;
-
-    width: 100%;
+    width: vw;
     background: lightblue;
     color: black;
     text-align: center;
