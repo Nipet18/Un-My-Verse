@@ -1,24 +1,25 @@
-function navSlide() {
-    const burger = document.querySelector(".burger");
-    const nav = document.querySelector(".nav-links");
-    const navLinks = document.querySelectorAll(".nav-links li");
+document.querySelector("#newsbtn").addEventListener('click', function () {
+    let file = "news.php";
+    loadContent(file);
+});
 
-    burger.addEventListener("click", () => {
-        //Toggle Nav
-        nav.classList.toggle("nav-active");
+document.querySelector("#profilebtn").addEventListener('click', function () {
+    let file = "profile.php";
+    loadContent(file);
+});
 
-        //Animate Links
-        navLinks.forEach((link, index) => {
-            if (link.style.animation) {
-                link.style.animation = ""
-            } else {
-                link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.5}s`;
-            }
-        });
-        //Burger Animation
-        burger.classList.toggle("toggle");
-    });
+document.querySelector("#signupbtn").addEventListener('click', function () {
+    let file = "signup.php";
+    loadContent(file);
+});
 
+document.querySelector("#faqbtn").addEventListener('click', function () {
+    let file = "faq.php";
+    loadContent(file);
+});
+
+function loadContent(content) {
+    fetch(content)
+        .then(response => response.text())
+        .then(data => document.querySelector("#content").innerHTML = data);
 }
-
-navSlide();
