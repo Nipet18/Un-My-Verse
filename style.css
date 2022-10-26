@@ -85,6 +85,7 @@ header {
     font-size: 30px;
     margin: 30px;
     padding: 30px;
+    display: block;
 }
 
 .wrapper img {
@@ -102,11 +103,13 @@ fieldset {
 
 .wrapper input {
     font-size: 25px;
+    padding: 15px;
     float: right;
 }
 
 .wrapper label {
-    float: left;
+    padding: 15px;
+    display: flex;
 }
 
 .wrapper textarea {
@@ -120,6 +123,7 @@ fieldset {
 
 .wrapper button {
     padding: 20px 70px 20px 70px;
+    margin: 30px;
     background: darkblue;
     color: white;
     border-color: aliceblue;
@@ -179,10 +183,6 @@ fieldset {
 .date {
     padding: 10px;
     float: right;
-}
-
-.lookNice {
-    color: aqua;
 }
 
 /*------  Aside(SidePanels)  --------*/

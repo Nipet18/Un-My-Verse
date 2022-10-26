@@ -1,3 +1,5 @@
+<h1>The News Feed of every Galaxytravler</h1>
+
 <div class="contentBlock">
     <div color="Black">
         <img src="pictures/ProfilePics/astronauta-lancando-no-espaco-e-acenando-a-ilustracao-dos-desenhos-animados-de-mao-conceito-de-tecnologia-da-ciencia-isolado-estilo-flat-cartoon_138676-3446.jpg">

@@ -1,7 +1,7 @@
+<h1>Hello BilboSakanoff</h1>
 <div>
     <div>
         <div>
-            <h1>Hello BilboSakanoff</h1>
             <p>This is your profile page. You can see the profile detail you've made and other good stuff</p>
         </div>
     </div>
@@ -65,46 +65,46 @@
                             <div>
                                 <div>
                                     <label for="input-username">Username</label>
-                                    <input type="text" id="input-username" placeholder="Username" value="BilboSakanoff">
+                                    <input type="text" placeholder="Username" value="BilboSakanoff">
                                 </div>
                                 <div>
                                     <label for="input-email">Email address</label>
-                                    <input type="email" id="input-email" placeholder="Sakanoff@example.com">
+                                    <input type="email" placeholder="Sakanoff@example.com">
                                 </div>
                             </div>
                             <div>
                                 <div>
                                     <label for="input-first-name">First name</label>
-                                    <input type="text" id="input-first-name" placeholder="First name" value="Lucky">
+                                    <input type="text" placeholder="First name" value="Jason">
                                 </div>
                                 <div>
                                     <label for="input-last-name">Last name</label>
-                                    <input type="text" id="input-last-name" placeholder="Last name" value="Jesse">
+                                    <input type="text" placeholder="Last name" value="Jones">
                                 </div>
                             </div>
                         </div>
                         <hr>
 
                         <!-- Address -->
-                        <br>
-                        <h6>Contact information</h6>
+
+
                         <div>
                             <div>
                                 <label for="input-address">Address</label>
-                                <input id="input-address" placeholder="Home Address" value="Bld Mihail Kogalniceanu, nr. 8 Bl 1, Sc 1, Ap 09" type="text">
+                                <input placeholder="Home Address" value="Bld Mihail Kogalniceanu, nr. 8 Bl 1, Sc 1, Ap 09" type="text">
                             </div>
                             <div>
                                 <div>
                                     <label for="input-city">City</label>
-                                    <input type="text" id="input-city" placeholder="City" value="New York">
+                                    <input type="text" placeholder="City" value="New York">
                                 </div>
                                 <div>
                                     <label for="input-country">Country</label>
-                                    <input type="text" id="input-country" placeholder="Country" value="United States">
+                                    <input type="text" placeholder="Country" value="United States">
                                 </div>
                                 <div>
                                     <label for="input-country">Postal code</label>
-                                    <input type="number" id="input-postal-code" placeholder="Postal code">
+                                    <input type="number" placeholder="Postal code">
                                 </div>
                             </div>
                         </div>

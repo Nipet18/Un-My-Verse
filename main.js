@@ -18,6 +18,16 @@ document.querySelector("#faqbtn").addEventListener('click', function () {
     loadContent(file);
 });
 
+document.querySelector("#secSignup.suBtn").addEventListener('click', function () {
+    let file = "signup.php";
+    loadContent(file);
+});
+
+document.querySelector("#psw").addEventListener('click', function () {
+    let file = "fPassword.php";
+    loadContent(file);
+});
+
 function loadContent(content) {
     fetch(content)
         .then(response => response.text())
